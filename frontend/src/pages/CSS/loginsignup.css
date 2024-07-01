@@ -1,0 +1,121 @@
+.loginsignup{
+    background:#d09ad4;
+    padding: 20px;
+    width: 100%;
+    height: 80vh;
+    
+}
+
+.loginsignupcontainer{
+    background-color: whitesmoke;
+    padding: 40px 60px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+
+}
+
+.signuplogin-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.loginsignupcontainer h1 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.signuplogin-fields input {
+    width:100% ;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 22px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    border: 3px grey;
+}
+
+.loginsignupcontainer button{
+    background-color: red;
+    width: 100%;
+    height:40px;
+    border: none;
+    font-size: 22px;
+    color: white;
+font-weight: 500px;
+    margin: 10px 0px;
+    cursor: pointer;
+
+}
+
+.loginsignupcontainer p{
+ 
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    gap: 20px;
+    font-weight: 500px;
+}
+
+.loginsignupcontainer p span{
+    color: red;
+    font-weight: 500;
+}
+.agree input{
+    width: 20px;
+    height: 15px;
+}
+.agree {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width:1280){
+    .loginsignup{
+        padding: 50px;
+    }
+    .loginsignupcontainer{
+        width: auto;
+        max-width: 500px;
+        max-height: 500px;
+    }
+    .loginsignupcontainer h1{
+        margin: 10px 0px;
+    }
+    .signuplogin-fields{
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .signuplogin-fields input{
+        height: 65px;
+        width:93%;
+    }
+    .loginsignupcontainer button{
+        width: 100%;
+    }
+}
+@media (max-width:800px)
+{
+    .loginsignupcontainer{
+        padding: 20px 30px;
+    }
+    .loginsignupcontainer h1{
+        font-size: 24px;
+    }
+    .signuplogin-fields{
+        margin-top: 20px;
+    }
+    .signuplogin-fields input{
+        height: 50px;
+    }
+    .loginsignupcontainer button{
+        height:50px;
+    }
+}

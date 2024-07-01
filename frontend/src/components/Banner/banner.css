@@ -1,0 +1,175 @@
+.ban-container{
+    height: 100vh;
+    background:linear-gradient(180deg,#fde1ff,#e1ffea22 60%);
+    display: flex;
+    flex-direction: row;
+}
+
+.ban-info-left{
+    flex: 1;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    justify-content: center;
+    
+}
+.ban-info-left h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.ban-info-left p{
+    font-size: 55px;
+    font-weight: 300px;
+}
+.hand_icon{
+    display: flex;
+   
+    align-items: center;
+    gap: 20px;
+}
+.hand_icon img{
+    width: 55px;
+}
+
+.latest-btn{
+    width: 300px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    border-radius: 75px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300px;
+}
+
+.ban-info-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:1280px) {
+
+    .ban-info-left{
+        padding-left: 100px;
+    }
+    .ban-info-left h4{
+        font-size: 22px;
+    }
+    .ban-info-left p{
+        font-size: 60px;
+        font-weight: 300px;
+    }
+.hand_icon img{
+    width:80px;
+}
+.latest-btn{
+    gap: 10px;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.ban-info-right img{
+    width: 500px;
+}
+
+
+    
+    
+}
+@media (max-width:1024px) {
+
+    .ban-info-left{
+        padding-left: 80px;
+    }
+    .ban-info-left h4{
+        font-size: 20px;
+    }
+    .ban-info-left p{
+        font-size: 50px;
+        font-weight: 300px;
+    }
+.hand_icon img{
+    width:65px;
+}
+.latest-btn{
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+
+}
+.ban-info-right img{
+    width: 400px;
+}
+
+
+    
+    
+}
+
+@media (max-width:800px) {
+
+    .ban-info-left{
+        padding-left: 30px;
+    }
+    .ban-info-left h4{
+        font-size: 16px;
+    }
+    .ban-info-left p{
+        font-size: 40px;
+        font-weight: 300px;
+    }
+.hand_icon img{
+    width:50px;
+}
+.latest-btn{
+    width: 175px;
+    height: 30px;
+    font-size: 16px;
+
+}
+.ban-info-right img{
+    width: 300px;
+}
+ 
+}
+
+@media (max-width:500px) {
+    .ban-container{
+        flex-direction: column;
+    }
+    .ban-info-right{
+        display: none;
+    }
+    .ban-info-left h4
+    {
+
+        font-size: 18px;
+    }
+    
+    .ban-info-left p
+    {
+
+        font-size: 50px;
+    }
+    .hand_icon{
+
+        width: 55px;
+    }
+    .latest-btn{
+        width: 200px;
+        height: 45px;
+        font-size: 14px;
+
+    }
+
+
+}
